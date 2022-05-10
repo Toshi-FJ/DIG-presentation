@@ -1,0 +1,99 @@
+
+body{
+    background-color: aquamarine;
+}
+
+header > h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 60px;
+    margin: 25px;
+}
+
+.enemy {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.enemy > p {
+    font-size: 30px;
+    text-align: center;
+    margin: 5px auto;
+    border: 3px solid;
+    border-color: white;
+    width: 150px;
+}
+
+.score{
+    text-align: center;
+}
+
+.myScore{
+    padding: 10px;
+    margin: 10px auto;
+    border: 3px solid white;
+    text-align: center;
+    width: 50px;
+    font-size: 30px;
+}
+
+.result {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result > p{
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.jyanken {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.jyanken > p{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.commentClass {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-color: black;
+}
+
+.commentClass > h2 {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.commentClass > h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.commentClass > p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0px;
+}

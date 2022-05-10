@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="jyanken.css" />
+</head>
+
+<body>
+    <!-- タイトル -->
+    <header>
+        <h1>じゃんけんポン</h1>
+    </header>
+    <!-- 対戦相手 -->
+    <div class="enemy">対戦相手
+        <p id="enemyHand">?</p>
+    </div>
+    <!-- スコア -->
+    <!-- <div class="score">
+        <div class="myScore" id="myScore">0</div>
+        <p>勝</p>
+    </div> -->
+    <!-- 対戦結果 -->
+    <div class="result">
+        <p id="resultText">－</p>
+    <!-- <div class="result">勝ち</div> -->
+    </div>
+    <div class="jyanken">
+        <p>選んで下さい</p>
+        <!-- じゃんけんボタン -->
+        <!-- ✊ぐー -->
+        <button id="guButton" type="button">✊ぐー</button>
+        <!-- ✌ちょき -->
+        <button id="tyokiButton" type="button">✌ちょき</button>
+        <!-- 🖐ぱー -->
+        <button id="paButton" type="button">🖐ぱー</button>
+    </div>
+    <div class="commentClass">
+        <h2>《総評》</h2>
+            <h3 id="theme">■作成テーマ</h3>
+                <p id="commentId">
+                    ・自分の今出来るスキル範囲内で実装する。背伸びをしない。<br>
+                    ・HTMLを活用する。せっかくなので・・・。<br>
+                    ・ボタンをポチりたい。「ワニが放出」が実装出来た時にあの感動をもう一度。
+                </p>
+            <h3 id="comment">■苦労したところ😖</h3>
+                <p id="commentId">
+                    ・じゃんけん三すくみの実装。力技でif文の羅列。💪<br>
+                    ・画像(img)の挿入と対戦スコアの実装。今回は断念。😭<br>
+                    ・デザインセンス。。。😞
+                </p>
+            <h3 id="comment">■感想</h3>
+                <p id="commentId">
+                    ・プログラム初心者の自分でもちょっとしたゲーム(?)が作成出来て嬉しいです。<br>
+                    ・あっと言う間の20日間。継続していないと忘れてしまうので毎日コツコツ復習と、<br>
+                    　違う実装にも挑戦していきたいです。
+                </p>
+    </div>
+    <script src="jyankenScript.js"></script>
+</body>
+
+</html>
