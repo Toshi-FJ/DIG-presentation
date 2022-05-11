@@ -11,12 +11,6 @@ let resetId = document.getElementById("resetButton")
 const guButton = document.getElementById("guButton");
 guButton.addEventListener("click", function (e) {
     ponId.textContent = "ポンッ!!";
-    // let result = document.getElementById("resultText");
-    // let enemyHand = document.getElementById("enemyHand")
-    // const enemyHandArray = ["ぐぅぅ", "ちょき", "ぱぁぁ"]
-    // console.log(result);
-    // console.log(enemyHand);
-    // console.log("gu");
     let enemyHandChoice = Math.floor(Math.random() * 3);
     // console.log("enemy: " + enemyHandArray[enemyHandChoice]);
     enemyHand.textContent = enemyHandArray[enemyHandChoice];
@@ -85,4 +79,5 @@ const resetButton = document.getElementById("resetButton");
 resetButton.addEventListener("click", function (e) {
     result.textContent = "－";
     result.removeAttribute("style");
+    enemyHand.textContent = "?";
 }, false);
