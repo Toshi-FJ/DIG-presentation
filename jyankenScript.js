@@ -80,4 +80,5 @@ resetButton.addEventListener("click", function (e) {
     result.textContent = "－";
     result.removeAttribute("style");
     enemyHand.textContent = "?";
+    ponId.textContent = "じゃ~んけ~ん";
 }, false);
