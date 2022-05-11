@@ -1,20 +1,15 @@
 'use strict'
 
-
 //ぐーのボタンが押された時
-const enemyHandArray = ["ぐぅ", "ちょき", "ぱぁ"]
 let result = document.getElementById("resultText");
 let enemyHand = document.getElementById("enemyHand")
 let enemyDiv = document.getElementsByClassName("enemy");
+let ponId = document.getElementById("ponId");
+let resetId = document.getElementById("resetButton")
 
 const guButton = document.getElementById("guButton");
 guButton.addEventListener("click", function (e) {
-    // let result = document.getElementById("resultText");
-    // let enemyHand = document.getElementById("enemyHand")
-    // const enemyHandArray = ["ぐぅぅ", "ちょき", "ぱぁぁ"]
-    // console.log(result);
-    // console.log(enemyHand);
-    // console.log("gu");
+    ponId.textContent = "ポンッ!!";
     let enemyHandChoice = Math.floor(Math.random() * 3);
     // console.log("enemy: " + enemyHandArray[enemyHandChoice]);
     enemyHand.textContent = enemyHandArray[enemyHandChoice];
@@ -41,6 +36,7 @@ guButton.addEventListener("click", function (e) {
 //ちょきのボタンが押された時
 const tyokiButton = document.getElementById("tyokiButton");
 tyokiButton.addEventListener("click", function (e) {
+    ponId.textContent = "ポンッ!!";
     let enemyHandChoice = Math.floor(Math.random() * 3);
     enemyHand.textContent = enemyHandArray[enemyHandChoice];
     if (enemyHandChoice === 0) {//ちょき < ぐー
@@ -60,6 +56,7 @@ tyokiButton.addEventListener("click", function (e) {
 //ぱーのボタンが押された時
 const paButton = document.getElementById("paButton");
 paButton.addEventListener("click", function (e) {
+    ponId.textContent = "ポンッ!!";
     let enemyHandChoice = Math.floor(Math.random() * 3);
     enemyHand.textContent = enemyHandArray[enemyHandChoice];
     if (enemyHandChoice === 0) {//ぱー > ぐー
@@ -74,4 +71,11 @@ paButton.addEventListener("click", function (e) {
         result.textContent = "あいこ😑";
         result.removeAttribute("style");
     }
+}, false);
+
+//りせっとのボタンが押された時
+const resetButton = document.getElementById("resetButton");
+resetButton.addEventListener("click", function (e) {
+    result.textContent = "－";
+    result.removeAttribute("style");
 }, false);
