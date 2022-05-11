@@ -1,9 +1,8 @@
-
-body{
+body {
     background-color: aquamarine;
 }
 
-header > h1 {
+header>h1 {
     color: blueviolet;
     text-align: center;
     font-size: 60px;
@@ -16,7 +15,7 @@ header > h1 {
     font-size: 25px;
 }
 
-.enemy > p {
+.enemy>p {
     font-size: 30px;
     text-align: center;
     margin: 5px auto;
@@ -25,17 +24,27 @@ header > h1 {
     width: 150px;
 }
 
-.score{
+.score {
     text-align: center;
 }
 
-.myScore{
+.myScore {
     padding: 10px;
     margin: 10px auto;
     border: 3px solid white;
     text-align: center;
     width: 50px;
     font-size: 30px;
+}
+
+.pon {
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.pon>p {
+    margin: 0;
 }
 
 .result {
@@ -46,7 +55,7 @@ header > h1 {
     margin-right: auto;
 }
 
-.result > p{
+.result>p {
     text-align: center;
     margin: 0;
     font-weight: bold;
@@ -55,29 +64,48 @@ header > h1 {
 .jyanken {
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.jyanken > p{
-    margin-top: 0;
+.jyanken>p {
+    margin: 0;
     margin-bottom: 5px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     text-align: center;
+}
+
+.jyanken>button {
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.reset {
+    margin: 10px ;
+    text-align: center;
+}
+
+.reset>button {
+    padding: 5px;
+    height: 30px;
+    width: 100px;
 }
 
 .commentClass {
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 80px;
+    margin-right: 80px;
     border: 3px solid;
     border-color: black;
+    background-color: aliceblue;
 }
 
-.commentClass > h2 {
+.commentClass>h2 {
     font-size: 25px;
     margin-top: 0;
     margin-bottom: 0;
@@ -86,14 +114,26 @@ header > h1 {
     text-align: center;
 }
 
-.commentClass > h3 {
+.commentClass>h3 {
     font-size: 20px;
     margin: 0;
     padding: 0;
 }
 
-.commentClass > p {
+.commentClass>p {
     font-size: 15px;
     margin: 0;
-    padding: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.commentClass>ul{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 5p;
+    padding-left: 10px;
 }
